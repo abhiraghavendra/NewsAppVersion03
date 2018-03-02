@@ -31,13 +31,13 @@ public class Technology extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_screen2);
 
         Button back1 = (Button) findViewById(R.id.back1);
         back1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Technology.this, MainActivity.class));
+                startActivity(new Intent(Technology.this, screen0.class));
             }
         });
 

@@ -31,17 +31,17 @@ public class entertainment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_screen2);
 
         Button back1 = (Button) findViewById(R.id.back1);
         back1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(entertainment.this, MainActivity.class));
+                startActivity(new Intent(entertainment.this, screen0.class));
             }
         });
 
-        Button final1 = (Button) findViewById(R.id.finalize);
+        Button final1 = (Button) findViewById(R.id.morning);
         final1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

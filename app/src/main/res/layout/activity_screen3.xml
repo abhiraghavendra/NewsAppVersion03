@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginBottom="35dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/orangebutton"
         android:text="Back to Main Catagories" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Top Stories"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:layout_gravity="center" />
 
     <Button
@@ -55,7 +55,7 @@
         android:layout_below="@+id/button8"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Business"
         android:textColor="#FFFFFF"
         android:textSize="14sp" />
@@ -68,7 +68,7 @@
         android:layout_below="@+id/button9"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Technology"
         android:textColor="#FFFFFF"
         android:textSize="14sp" />

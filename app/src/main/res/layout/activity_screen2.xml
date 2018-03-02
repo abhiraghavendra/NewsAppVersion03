@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.abhi.newapplication.MainActivity">
+    tools:context="com.example.abhi.newapplication.screen0">
 
 
     <ListView
         android:id="@+id/lvRss"
         android:layout_width="match_parent"
         android:layout_height="331dp"
+        android:layout_marginTop="50dp"
         android:layout_weight="1"
         android:divider="#2e2e2d"
         android:dividerHeight="2dp"
@@ -19,23 +20,23 @@
 
     <Button
         android:id="@+id/back1"
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:background="@drawable/modified"
-        android:text="Back to Main Catagories" />
+        android:background="@drawable/orangebutton"
+        android:text="Select Catagories"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
 
     <Button
-        android:id="@+id/finalize"
+        android:id="@+id/morning"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:text="Finalize"
         android:layout_gravity="center"
-        android:background="@drawable/modified"
         android:layout_marginTop="20dp"
+        android:background="@drawable/orangebutton"
+        android:text="Finalize"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"/>
+        android:textSize="14sp" />
 </LinearLayout>

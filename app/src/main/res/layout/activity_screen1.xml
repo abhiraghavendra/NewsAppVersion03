@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.abhi.newapplication.MainActivity">
+    tools:context="com.example.abhi.newapplication.screen0">
 
 
     <Button
@@ -13,11 +13,11 @@
         android:textSize="14sp"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Top Stories" />
 
     <Button
@@ -30,7 +30,7 @@
         android:layout_below="@+id/button1"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Business" />
 
     <Button
@@ -43,7 +43,7 @@
         android:layout_below="@+id/button2"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Technology" />
 
     <Button
@@ -56,7 +56,7 @@
         android:layout_below="@+id/button3"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Entertainment" />
 
     <Button
@@ -69,7 +69,7 @@
         android:layout_below="@+id/button4"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
-        android:background="@drawable/modified"
+        android:background="@drawable/bluebutton"
         android:text="Sports" />
 
     <RadioButton
@@ -88,18 +88,32 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/radioButton"
         android:layout_alignBottom="@+id/radioButton"
-        android:layout_marginStart="15dp"
-        android:layout_toEndOf="@+id/radioButton"
+        android:layout_marginEnd="38dp"
+        android:layout_toStartOf="@+id/radioButton3"
         android:text="Key Word" />
 
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/radioButton2"
-        android:layout_marginStart="17dp"
-        android:layout_toEndOf="@+id/radioButton2"
+        android:layout_alignBaseline="@+id/radioButton2"
+        android:layout_alignBottom="@+id/radioButton2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
         android:text="Smart" />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/orangebutton"
+        android:text="Back to Start"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
 
 
 </RelativeLayout>

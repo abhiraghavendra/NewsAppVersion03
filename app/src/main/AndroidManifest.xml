@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,12 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".topStories"></activity>
-        <activity android:name=".Business"></activity>
-        <activity android:name=".entertainment"></activity>
-        <activity android:name=".sports"></activity>
-        <activity android:name=".Technology"></activity>
-        <activity android:name=".Audio_activity"></activity>
+        <activity android:name=".topStories" />
+        <activity android:name=".Business" />
+        <activity android:name=".entertainment" />
+        <activity android:name=".sports" />
+        <activity android:name=".Technology" />
+        <activity android:name=".Audio_activity" />
+        <activity android:name=".screen0"></activity>
     </application>
 
 </manifest>
